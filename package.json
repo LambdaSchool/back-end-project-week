@@ -1,0 +1,34 @@
+{
+  "name": "projectbackend",
+  "version": "1.0.0",
+  "description": "'build a backend for a note taking app called \"Lambda Notes'",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Witanday/back-end-project-week.git"
+  },
+  "keywords": [
+    "nodes",
+    "express"
+  ],
+  "author": "Witanday Kyanga /LAMBDA WEBPT2",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Witanday/back-end-project-week/issues"
+  },
+  "homepage": "https://github.com/Witanday/back-end-project-week#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "helmet": "^3.15.1",
+    "knex": "^0.16.3",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.10",
+    "pg": "^7.8.1",
+    "sqlite3": "^4.0.6"
+  }
+}
